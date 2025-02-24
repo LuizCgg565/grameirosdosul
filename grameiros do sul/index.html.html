@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grameiros do Sul</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Grameiros do Sul</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="introducao" class="content-box">
+        <h2>Especialistas em Poda e Corte de Árvores</h2>
+        <p>Equipe especializada em <strong>poda, corte e transplante de árvores</strong> com foco em segurança, eficiência e respeito ao meio ambiente <strong>Acompanhamento de engenheiro ambiental </strong>para serviços responsáveis e de qualidade.</p>
+    </section>
+    
+    <section id="galeria" class="content-box">
+        <h2>Galeria</h2>
+        <div class="carousel">
+            <video src="video_1.mp4" class="zoomable" onclick="mudarMidia(0)" controls></video>
+            <video src="video_2.mp4" class="zoomable active" onclick="mudarMidia(1)" controls></video>
+            <img src="imagen_1.jpeg" alt="imagem 1" class="zoomable" onclick="mudarMidia(2)">
+            <img src="imagen_2.jpeg" alt="imagem 2" class="zoomable" onclick="mudarMidia(3)">
+            <img src="imagen_3.jpeg" alt="imagem 3" class="zoomable" onclick="mudarMidia(4)">
+        </div>
+    </section>
+    
+    <section id="contato" class="content-box">
+        <h2>Contato</h2>
+        <p>Email: grameirosdosul@yahoo.com.br</p>
+        <p>Telefone: (11) 95374-3013</p>
+        <p>Telefone: (48) 99648-4344</p>
+    </section>
+</body>
+</html>
